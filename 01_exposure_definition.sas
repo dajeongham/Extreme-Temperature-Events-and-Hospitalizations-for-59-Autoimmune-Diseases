@@ -1,7 +1,7 @@
 /*==============================================================================
   01. Exposure definition: heat-wave and cold-spell indicators
   - District-specific percentile thresholds from daily mean temperature (tem):
-      warm season (Jun-Aug): 95th / 97.5th / 99th
+      warm season (May-Sep): 95th / 97.5th / 99th
       cold season (Nov-Feb): 1st / 2.5th / 5th
   - Single-day and 2-/3-consecutive-day indicators, computed within district.
   Input:  b.<dx>_cco_merged  (case-crossover days with temperature `tem`,
@@ -21,7 +21,7 @@
     data work.&thisdx._summer work.&thisdx._winter;
       set b.&thisdx._cco_merged;
       month = month(date);
-      if month in (6,7,8)     then output work.&thisdx._summer;
+      if month in (5,6,7,8,9)     then output work.&thisdx._summer;
       if month in (11,12,1,2) then output work.&thisdx._winter;
     run;
 
