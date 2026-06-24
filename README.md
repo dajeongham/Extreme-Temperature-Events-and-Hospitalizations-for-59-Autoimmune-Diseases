@@ -6,9 +6,8 @@ Diseases in Korea: A Nationwide Outcome-Wide, Time-Stratified, Case-Crossover St
 Repository: https://github.com/dajeongham/Extreme-Temperature-Events-and-Hospitalizations-for-59-Autoimmune-Diseases
 
 This repository contains the **analysis code** (exposure definition, statistical model,
-multiplicity correction, subgroup analysis). Data construction from the raw National
-Health Insurance Service (NHIS) claims is institution-specific and is **not** included; the
-underlying NHIS data cannot be shared (see `DATA_CODE_AVAILABILITY.txt`).
+multiplicity correction, subgroup analysis). The National Health Insurance Service (NHIS) claims data underlying this study cannot be
+shared, owing to data-sharing restrictions imposed by the NHIS of Korea. 
 
 ## Software
 - SAS 9.4 - exposure definition, conditional logistic regression, subgroup analyses
