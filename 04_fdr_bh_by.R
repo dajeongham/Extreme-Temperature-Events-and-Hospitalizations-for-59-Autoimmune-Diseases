@@ -3,7 +3,6 @@
 # the 59 autoimmune diseases (Reviewer #3 Major #1, #2).
 #   BH: valid under positive regression dependence (PRDS).
 #   BY: valid under arbitrary dependence (more conservative).
-# Data not included (NHIS restriction); set local paths under data/ and output/.
 
 library(dplyr)
 
