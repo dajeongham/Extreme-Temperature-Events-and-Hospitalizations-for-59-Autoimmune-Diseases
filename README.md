@@ -11,7 +11,7 @@ shared, owing to data-sharing restrictions imposed by the NHIS of Korea.
 
 ## Software
 - SAS 9.4 - exposure definition, conditional logistic regression, subgroup analyses
-- R 4.4.1 - multiplicity correction and sensitivity (package: dplyr)
+- R 4.4.1 - multiplicity correction (package: dplyr)
 
 ## Files
 | File | Description |
