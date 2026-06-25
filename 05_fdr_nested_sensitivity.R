@@ -4,14 +4,14 @@
 # removing the overlapping unit, under two scenarios:
 #   (A) keep IBD,  drop subtypes (CD, UC)
 #   (B) keep CD/UC, drop aggregate (IBD)
-# Data not included (NHIS restriction); set local paths under data/ and output/.
+
 
 library(dplyr)
 
 # 1] Load main-analysis estimates ---------------------------------------------
 #    One row per disease x exposure definition.
 #    Columns used: Outcome, Effect (exposure code), RR, LCL, UCL.
-df <- read.csv("data/regression_estimates.csv")
+df <- read.csv("")
 
 # 2] Classify exposure definition and compute two-sided p-value ----------------
 df <- df %>%
