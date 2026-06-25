@@ -9,7 +9,7 @@ library(dplyr)
 # 1] Load regression estimates ------------------------------------------------
 #    One row per disease x exposure definition x subset.
 #    Columns used: Outcome, Type (exposure code), RR, LCL, UCL, subset.
-df <- read.csv("data/regression_estimates.csv")
+df <- read.csv("")
 
 # 2] Classify each exposure definition from the exposure code (Type) -----------
 df <- df %>%
