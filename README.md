@@ -20,5 +20,5 @@ shared, owing to data-sharing restrictions imposed by the NHIS of Korea.
 | `02_conditional_logistic_regression.sas` | Time-stratified case-crossover model: conditional logistic regression (PROC LOGISTIC, STRATA), humidity adjusted with a cubic B-spline (df=3); one model per disease x exposure definition. |
 | `03_subgroup_analysis.sas` | Main model re-fitted within sex / age / income / urbanicity subgroups; effect modification tested with Wald tests (Altman & Bland 2003). |
 | `04_fdr_bh_by.R` | Benjamini-Hochberg and Benjamini-Yekutieli correction within each exposure definition across the 59 diseases. |
-| `05_fdr_nested_sensitivity.R` | FDR re-applied after excluding nested outcomes (Crohn's / ulcerative colitis within IBD). |
+| `05_fdr_nested_sensitivity.R` | FDR re-applied after excluding nested outcomes. |
 
